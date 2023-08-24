@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <!-- strings.xml -->
+
+        <string-array name="conversion_types">
+            <item>Feet to Meters</item>
+            <item>Meters to Feet</item>
+            <item>Meters to kilometers</item>
+            <item>Meters to Centimeters</item>
+            <item>Grams to Kilograms</item>
+            <item>Liters to Milliliters</item>
+            <item>Kilograms to Grams</item>
+
+        </string-array>
+
+
+</resources>

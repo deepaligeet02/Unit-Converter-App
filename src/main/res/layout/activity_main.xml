@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_x="20dp"
+        android:layout_y="9dp"
+        app:srcCompat="@drawable/unit" />
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="74sp"
+        android:layout_marginTop="160sp"
+        android:layout_marginBottom="20sp"
+        android:layout_x="71dp"
+        android:layout_y="237dp"
+        android:gravity="center"
+        android:hint="Enter value to convert"
+        android:inputType="numberDecimal"
+        android:paddingBottom="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Spinner
+        android:id="@+id/conversionTypeSpinner"
+        android:layout_width="344dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginBottom="40sp"
+        android:layout_x="34dp"
+        android:layout_y="346dp"
+        android:backgroundTint="#FFFFFF"
+        android:entries="@array/conversion_types"
+        android:gravity="center|center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/outputEditText"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginBottom="40sp"
+        android:layout_x="71dp"
+        android:layout_y="434dp"
+        android:enabled="false"
+        android:gravity="center|center_horizontal"
+        android:hint="Converted value"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="#F6F2F2"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="133sp"
+        android:layout_marginBottom="80sp"
+        android:layout_x="126dp"
+        android:layout_y="544dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Convert"
+        android:textColor="#0E0B0B"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#EDE0E0" />
+
+
+</AbsoluteLayout>
